@@ -1,0 +1,30 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body{
+    background-image: linear-gradient(to right,#EDED45,#C3C359);
+}
+h1{
+    font: normal 400 3em "Permanent Marker", sans-serif;
+    text-align: center;
+    color: #434339;
+    
+}
+h2{
+    font: normal 400 1.5em "Permanent Marker", sans-serif;
+    text-align: center;
+    color: #434339;
+}
+p{
+    font: italic 200 1em "Nunito", sans-serif;
+}
+main{
+    background-color: #f7f7ec;
+    margin: auto;
+    width: 600px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 40px #989846;
+
+}

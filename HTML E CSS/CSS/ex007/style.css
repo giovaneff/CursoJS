@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+
+body{
+
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;   
+    background-color: white;
+    
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: blueviolet;
+    text-align: center;
+    text-decoration: underline;
+    margin: 0;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: rgba(168, 108, 225, 0.906);
+    margin: 2px;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: black;
+    margin: 2px;
+}

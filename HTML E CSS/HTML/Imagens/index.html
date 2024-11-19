@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>Imagens dinamicas</title>
+        <link rel="shortcut icon" href="#" type="image/x-icon">
+    </head>
+    <body>
+        <h1>Imagens dinamicas</h1>
+        <p>Abrindo imagens dinâminas em diferentes dispositivos</p>
+        <picture>
+            <source media="(max-width: 750px)" srcset="img/foto-p.png" type="image/png">
+            <source media="(max-width: 1050px)" srcset="img/foto-m.png" type="image/png">
+            <img src="img/foto-g.png" alt="Imagem flexivel" width="100%">
+        </picture>
+    </body>
+</html>

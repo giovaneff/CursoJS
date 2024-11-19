@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#principal{
+    display: flex;
+    justify-content: space-around;
+    background-color: aquamarine;
+}
+
+.menu{
+    background-color: rgb(249, 148, 16);
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    margin-top: 2px;
+}
+
+.menu:hover{
+    display: flex;
+    background-color: rgb(223, 173, 111);
+    align-items: start;
+    justify-content: center;
+    
+}
